@@ -44,10 +44,11 @@ Windows 11 untested but should work.
   * Seems that `CustomShellHost.exe` subsumed it while it is running.
   * Use `ImmersiveControlPanel -> Network and Internet -> Wi-Fi -> Show Available Networks` for Wi-Fi. Or install an alternative Wi-Fi manager application.
   * Use good old Windows (tm) Mobile Center (`mblctr.exe`).
+  * Or use [PE Network Manager](https://www.penetworkmanager.de/).
 * Triple click ineffective under alternative shell.
   * Seems like an override when using `CustomShellHost`.
   * Maybe it's due to lack of attention. Maybe the triple / quadruple clicks in recent Windows 10 versions are just forwarded to the shell to process, and running `bbLean` without `CustomShellHost` wrapper does not resolve the issue.
-  * https://github.com/kamektx/TouchpadGestures_Advanced
+  * Use [my enabler](https://github.com/a-l-r1/windows-custom-shell-three-finger-tap-enabler).
 * Precision touchpad slide to switch virtual desktops functionality / show task view conflicts with bbLean.
   * Use just one kind of functionality.
 
