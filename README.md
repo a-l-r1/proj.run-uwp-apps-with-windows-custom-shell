@@ -46,7 +46,11 @@ Windows 11 untested but should work.
   * Use good old Windows (tm) Mobile Center (`mblctr.exe`).
 * Triple click ineffective under alternative shell.
   * Seems like an override when using `CustomShellHost`.
+  * Maybe it's due to lack of attention. Maybe the triple / quadruple clicks in recent Windows 10 versions are just forwarded to the shell to process, and running `bbLean` without `CustomShellHost` wrapper does not resolve the issue.
+  * https://github.com/kamektx/TouchpadGestures_Advanced
 * Precision touchpad slide to switch virtual desktops functionality / show task view conflicts with bbLean.
   * Use just one kind of functionality.
-  * Maybe it's due to lack of attention. Maybe the triple / quadruple clicks in recent Windows 10 versions are just forwarded to the shell to process, and running `bbLean` without `CustomShellHost` wrapper does not resolve the issue.
 
+## See Also
+
+https://winclassic.net/thread/1652/list-metro-ified-components-windows (if you prefer non-metro Apps and just run the custom shell plainly without UWP components)
